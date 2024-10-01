@@ -15,12 +15,12 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <SdgMission/>
-    <Process/>
-    <Offers/>
     <Partners/>
+    <Offers/>
+    <Process/>
     <BlogPost/>
+    <FAQ/>
     <Team/>
     <Footer/>
-    <FAQ/>
-  </StrictMode>
+    </StrictMode>
 )

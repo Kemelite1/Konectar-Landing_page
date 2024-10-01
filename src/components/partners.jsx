@@ -7,7 +7,7 @@ import logistics from "../assets/Logo (4).png";
 const Partners = () => {
     return (
         <>
-          <section className='font-Manrope bg-[#55BB77] py-5'>
+          <section className='font-Manrope bg-[#55BB77] py-7'>
             <h1 className='text-[#001F0A] font-extrabold text-[2rem] text-center'>OUR PARTNERS</h1>
 
             <div className='flex gap-16 justify-center items-center mt-5'>
