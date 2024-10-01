@@ -1,8 +1,9 @@
 import React from 'react';
-import sdg2 from '../assets/sdgpic2.png';
-import placeholder from '../assets/placeholder8.png';
+import sdg2 from "../assets/sdgpic2.png"
+import sdg8 from '../assets/sdgpic8.png';
 import sdg9 from '../assets/sdgpic9.png';
 import sdg12 from '../assets/sdgpic12.png';
+import sdg2H from "../assets/Property1SDGs2H.png";
 
 
 const SdgMission = () => {
@@ -15,9 +16,10 @@ const SdgMission = () => {
             <div className='flex gap-5 justify-center items-center mt-10'>
                 <div>
                     <img className='h-[100%] w-[100%]' src={sdg2} alt="SDG2" />
+                   
                 </div>
                 <div>
-                    <img className='h-[100%] w-[100%]' src={placeholder} alt="PLACEHOLDER" />
+                    <img className='h-[100%] w-[100%]' src={sdg8} alt="PLACEHOLDER" />
                 </div>
                 <div>
                     <img className='h-[100%] w-[100%]' src={sdg9} alt="SDG9" />
