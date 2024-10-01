@@ -7,6 +7,7 @@ import Process from './components/process.jsx';
 import Offers from './components/offers.jsx';
 import Partners from './components/partners.jsx';
 import BlogPost from './components/blogpost.jsx';
+import Team from './components/team.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,5 +17,6 @@ createRoot(document.getElementById('root')).render(
     <Offers/>
     <Partners/>
     <BlogPost/>
+    <Team/>
   </StrictMode>
 )
