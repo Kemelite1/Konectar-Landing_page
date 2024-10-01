@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
 import KonectarLogo from "../assets/Konectar Logo.png";
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -35,20 +36,20 @@ const Footer = () => {
                 </div>
 
                 <div class="logo-text">
-                    <p>Connecting Farms to Businesses: Nigeria's leading Marketplace for fresh Fruits and Vegetables</p>
+                    <p>Connecting Farms to Businesses: Nigeria's leading Marketplace for fresh Fruits and Vegetable</p>
                 </div>
 
-                <div class="socials">
+                <div className="socials mt-6">
                     <div class="heading">
-                        <h3>Social Media</h3>
+                        <h3 className='font-bold'>Social Media</h3>
                     </div>
         
-                    <div class="socials-icon">
-                        <div class="social1"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div className="socials-icon mt-4 cursor-pointer">
+                        <div className="social1 text-[#3b95c9]"><FaTwitter size={20} /></div>
         
-                        <div class="social1"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="social1"><FaInstagram size={20} /></div>
         
-                        <div class="social1"><i class="fa-brands fa-linkedin"></i></div>
+                        <div className="social1 text-[#326caf]"><FaLinkedin size={20} /></div>
                     </div>
                 </div>
             </div>
