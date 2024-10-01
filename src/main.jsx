@@ -8,6 +8,8 @@ import Offers from './components/offers.jsx';
 import Partners from './components/partners.jsx';
 import BlogPost from './components/blogpost.jsx';
 import Team from './components/team.jsx';
+import Footer from './components/footer.jsx';
+import FAQ from './components/faq.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,5 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Partners/>
     <BlogPost/>
     <Team/>
+    <Footer/>
+    <FAQ/>
   </StrictMode>
 )
